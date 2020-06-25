@@ -1,37 +1,76 @@
-
 body {
-    background-color: lightblue;
-
-    header {
-        width: 800px; margin-top: 40px; 
-        margin-left: calc(50% - 400px); 
-        background-color: red;
-    
-        nav {
+    /* background-color: lightblue; */
+    font-family: Verdana;
+}
+    .header {
+        display: inline-block;
+        width: 800px;
+        margin-top: 40px;
+        margin-left: calc( 50% - 400px );
+    }
+        .logo {
+            display: inline-block;
+        }
+        .navigation {
             display: inline-block;
             float: right;
         }
-        header > img {
-            display: inline-block;
-        }
+            .link {
+                display: inline-block;
+                margin-left: 30px;
+                color: gray;
+                font-size: 20px;
+                text-decoration: none;
+                
+            }
+            
+    .content {
+        display: inline-block;
+        width: 800px;
+        margin-top: 30px;
+        margin-left: calc(50% - 400px);
     }
-    main {
-        display: inline-block; width: 800px; 
-        margin-left: calc(50% - 400px); 
-        background-color: yellow;
-    
-        div {
-            display: inline-block; 
-            width: 35%; 
-            float: left; 
-            background-color: lightgreen;
+        .texts {
+            display: inline-block;
+            width: 35%;
+            float: left;
+            margin-top: 70px;
         }
         
-        main > img {
-            display: inline-block; 
-            float: right; 
-            width: 60%; 
-            background-color: pink;
+            .title {
+                display: inline-block;
+                text-transform: capitalize;
+            }
+            .description {
+                display: inline-block;
+                font-size: 13px;
+            }
+        .main-image {
+            display: inline-block;
+            width: 60%;
+            float: right;
         }
-    }
+
+.didziosios {
+    text-transform: uppercase;
 }
+
+.fonas {
+    background-color: blue;
+}
+
+.button {
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    line-height: 30px;
+    border-radius: 25px;
+    text-decoration: none;
+
+}
+    .button-wider {
+        margin-top: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }

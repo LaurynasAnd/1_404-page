@@ -8,6 +8,8 @@
 
 This project is for learning purposes only. Pull request are welcome, but keep in mind that I did this during my coding training! Thank you for your interest! :)
 
+This was my first project ever, so refrain from criticizing. Thank you!
+
 Site published at https://laurynasand.github.io/1_404-PAGE/
 
 ### Author:
